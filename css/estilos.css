@@ -1,0 +1,35 @@
+.menu ul{
+    display: flex;
+    justify-content: space-around;
+}
+body{
+    background-image: url('https://i.ytimg.com/vi/FeiU-hsxGIA/maxresdefault.jpg');
+    background-size: auto 100vh;
+    font-family:'Roboto Mono', monospace;
+    height: 100vh;
+}
+
+.menu{
+    background-color: white;
+}
+.menu li{
+    list-style: none;
+}
+a {
+    color: teal;
+    text-decoration: none;
+}
+a:hover{
+    color: navy;
+}
+.site-title {
+    color: snow;
+}
+.site-subtitle{
+    color: #42C920;
+}
+.site-title,
+.site-subtitle{
+    text-align: center;
+}
+
