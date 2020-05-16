@@ -5,41 +5,75 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/estilos.css">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Pangolin&family=Roboto+Mono:ital@1&family=Special+Elite&display=swap" rel="stylesheet">
   <title>Felipe Hohlenwerger</title>
+  <script src="https://kit.fontawesome.com/574641edf3.js" crossorigin="anonymous"></script>
 </head>
 
 <body class="fundo">
-  <header>
+  <header id="home">
     <nav class="menu">
       <ul>
-        <li><a href="#">Sobre</a></li>
-        <li><a href="#">Projetos</a></li>
-        <li><a href="#">Contato</a></li>
+        <li><a href="#home"><i class="fas fa-home"></i></a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#contato">Contato</a></li>
       </ul>
     </nav>
     <div>
-      <h1 class="site-title">Felipe Hohlenwerger</h1>
-      <h2 class="site-subtitle">Jr. developer</h2>
+      <h1 class="site-title typing-title">&lt;Felipe Hohlenwerger&sol;&gt;<br></h1>
+      <h2 class="site-subtitle">Beginner Developer</h2>
     </div>
   </header>
-  <section class="projetos">
+  <section class="sobre container" id="sobre">
+    <h2>Sobre</h2>
+    <figure class="avatar">
+      <img src="img/Felipe.jpg" alt="Felipe Hohlenwerger">
+    </figure>
+    <p>
+      Olá! me chamo Felipe, tenho 27 anos, no momento (2020) estou no último semestre de engenharia civil. Meu primeiro contato com o universo da programação foi em meados de 2018, quando descontente com a aparência do meu blogger fui pesquisando e fuçando através dos códigos para deixá-lo, ainda não do jeito que eu queria, mas muito melhor do que antes. 
+    </p>
+    <p>
+      Depois dessa pequena imerção no código, devido as exigências do curso de engenharia e de outros focos pessoais, acabei deixando de lado a programação em geral. Até que no final de 2019, frustrado com a área da engenharia civil resolvi me aprofundar na área de TI, e percebi que é isso o que eu realmente quero para a minha vida.
+    </p>
+    <p>
+      Esse site foi desenvolvido durante a <a href="https://www.alura.com.br/imersao-css">Imersão CSS da Alura</a>
+    </p>
+  </section>
+  <section class="projetos" id="projetos">
     <h2>Projetos</h2>
-      <div class="grid">
-        <figure>
+    <div class="grid">
+
+      <figure>
+        <a target="_blank" href="https://github.com/FelipeHohlenwerger">
           <img class="img-projetos" src="img/github.png" alt="logo github">
           <figcaption>Portfólio</figcaption>
-        </figure>
-        <figure>
+        </a>
+      </figure>
+      <figure>
+        <a target="_blank" href="http://eddamiddangeard.blogspot.com.br/">
           <img class="img-projetos" src="img/5993dd880bcde12ee7007184507ca402.jpg" alt="Blog literário">
           <figcaption>Middangeard</figcaption>
-        </figure>
-        <figure>
+        </a>
+      </figure>
+      <figure>
+        <a target="_blank" href="#">
           <img class="img-projetos" src="img/cv.jpg" alt="Currículo">
           <figcaption>Meu currículo</figcaption>
-        </figure>
-      </div>  
+        </a>
+      </figure>
+
+    </div>
   </section>
- </body>
+  <section class="contato" id="contato">
+    <h2>Contato</h2>
+    <div class="grid icons">
+      <a target="_blank" href="https://twitter.com/Hohlenwerger1"><i class="fab fa-twitter"></i></a>
+      <a target="_blank" href="https://www.instagram.com/felipehohlenwerger/"><i class="fab fa-instagram"></i></a>
+      <a target="_blank" href="https://www.linkedin.com/in/felipehohlenwerger/"><i class="fab fa-linkedin-in"></i></a>
+      <a target="_blank" href="mailto:felipehohlenwerger@gmail.com"><i class="far fa-envelope"></i></a>
+    </div>
+  </section>
+</body>
 
 </html>
