@@ -114,6 +114,9 @@ a {
     padding: 3em;
     min-height: 100vh;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 @media(min-width:1200px){
     .container{
